@@ -20,7 +20,7 @@ export async function getWikiByid(id){
 }
 
 export async function updateWiki(id, item){
-    return await api.put("http://localhost:3030//data/wiki/"+id,item)
+    return await api.put("http://localhost:3030/data/wiki/"+id,item)
 }
 
 export async function deleteFurniture(id){
